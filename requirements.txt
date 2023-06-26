@@ -1,3 +1,3 @@
-flag
+emoji-country-flag
 requests
 tweepy
