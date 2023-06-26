@@ -2,6 +2,7 @@
 import flag
 import json
 import locale
+import os
 import requests
 import tweepy
 from datetime import datetime
