@@ -10,7 +10,7 @@ from datetime import datetime
 json_url = 'https://raw.githubusercontent.com/Casualtek/Cyberwatch/main/cyberattacks.json'
 
 # Clés d'API Twitter
-consumer_key        = os.environ['COSUMER_KEY']
+consumer_key        = os.environ['CONSUMER_KEY']
 consumer_secret     = os.environ['CONSUMER_SECRET']
 access_token        = os.environ['ACCESS_TOKEN']
 access_token_secret = os.environ['ACCESS_TOKEN_SECRET']
