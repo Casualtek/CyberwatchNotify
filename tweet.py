@@ -282,7 +282,7 @@ def load_articles_from_json(url):
 def main():
     story      = load_articles_from_json(json_url)
     
-    locale.setlocale(locale.LC_TIME, 'fr_FR.UTF-8')
+    locale.setlocale(locale.LC_ALL, 'french')
     date_obj   = datetime.strptime(story['date'], '%Y-%m-%d')
     date_tweet = date_obj.strftime('%d %B %Y')
     country    = story['country']
